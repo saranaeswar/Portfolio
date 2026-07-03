@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Saranaeswar S - Full Stack & Mobile App Developer. Discover projects, experience, and skills in Web, Mobile, and AI solutions.">
+    <title>Saranaeswar S | Developer & Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="glow-bg glow-primary"></div>
+    <div class="glow-bg glow-secondary"></div>
+
+    <!-- Sticky Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Saranaeswar S<span class="logo-accent"> /&gt;</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">Available for Internships</div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Turning Ideas</span><br>
+                        Into Software.
+                    </h1>
+                    <p class="hero-subtitle">Full Stack Developer | Mobile App Developer</p>
+                    <p class="hero-description">
+                        Hi, I'm Saranaeswar, a B.Tech Computer Science & Business Systems student passionate about crafting scalable digital experiences. I design and build modern web, mobile, and AI-integrated products that solve real-world problems.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="resume.pdf" target="_blank" class="btn btn-secondary">
+                            <span>Get Resume</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-container">
+                        <!-- Premium Illustration SVG Avatar -->
+                        <svg class="avatar-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+                                    <stop offset="0%" stop-color="var(--color-primary-glow)" stop-opacity="0.3"/>
+                                    <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+                                </radialGradient>
+                                <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-primary)"/>
+                                    <stop offset="100%" stop-color="var(--color-secondary)"/>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="100" cy="100" r="95" fill="url(#avatarGlow)" />
+                            <circle cx="100" cy="100" r="75" fill="url(#avatarGrad)" stroke="var(--border-color)" stroke-width="2"/>
+                            <!-- Inner Illustration representing code and structure -->
+                            <rect x="50" y="65" width="100" height="70" rx="6" fill="#0d0d0f" stroke="#ffffff" stroke-opacity="0.15" stroke-width="2"/>
+                            <rect x="60" y="75" width="80" height="50" rx="3" fill="#151518"/>
+                            <line x1="58" y1="135" x2="142" y2="135" stroke="var(--color-secondary)" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M85 135L75 155H125L115 135" fill="#0d0d0f" stroke="var(--color-secondary)" stroke-width="2"/>
+                            <!-- Floating decorative items (AI / Code icons) -->
+                            <path d="M35 55L45 65L35 75" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M165 55L155 65L165 75" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="160" cy="120" r="6" stroke="var(--color-primary)" stroke-width="2"/>
+                            <circle cx="45" cy="115" r="4" stroke="var(--color-secondary)" stroke-width="1.5"/>
+                            <!-- Brackets inside the laptop screen -->
+                            <path d="M92 90C88 92 88 98 92 100" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M108 90C112 92 112 98 108 100" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="102" y1="88" x2="98" y2="102" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Bridging Technology & Business Systems</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-main-card">
+                        <p class="about-text">
+                            I am a third-year B.Tech student specialising in <strong>Computer Science and Business Systems (CSBS)</strong> at Panimalar Engineering College. My academic path is unique—it equips me to develop high-performance software while understanding the business impact and system design behind digital products.
+                        </p>
+                        <p class="about-text">
+                            What sets me apart is my multi-domain versatility. I design and build end-to-end solutions, connecting rich user interfaces built with HTML/CSS/JS and Flutter to robust backends and relational databases. I am constantly experimenting with modern frameworks, APIs, and AI integrations to turn ambitious concepts into deployable, real-world software.
+                        </p>
+                    </div>
+                    <div class="about-details-grid">
+                        <div class="details-card">
+                            <div class="details-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                                </svg>
+                            </div>
+                            <h3>End-to-End Build</h3>
+                            <p>I enjoy managing the entire development process—from prototyping layouts to database schema design and production hosting.</p>
+                        </div>
+                        <div class="details-card">
+                            <div class="details-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                                    <polyline points="2 17 12 22 22 17"/>
+                                    <polyline points="2 12 12 17 22 12"/>
+                                </svg>
+                            </div>
+                            <h3>Continuous Learning</h3>
+                            <p>Driven by curiosity, I regularly build small utility applications to keep pace with evolving software engineering standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skillset</h2>
+                    <p class="section-subtitle">My tools, frameworks, and programming environments</p>
+                </div>
+                <div class="skills-grid">
+                    <!-- Languages Card -->
+                    <div class="skills-card">
+                        <h3 class="skills-card-title">Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C / C++</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">TypeScript / JS</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & UI -->
+                    <div class="skills-card">
+                        <h3 class="skills-card-title">Frameworks & Frontend</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Flutter (Mobile)</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML5 / CSS3</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Object-Oriented Design</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Infrastructure -->
+                    <div class="skills-card">
+                        <h3 class="skills-card-title">Databases & Tools</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">SQLite</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PostgreSQL / MySQL</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Vercel Deployment</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section (Dual Timelines) -->
+        <section id="experience" class="timeline-section">
+            <div class="container">
+                <div class="timeline-grid">
+                    <!-- Professional Experience Timeline -->
+                    <div class="timeline-column">
+                        <div class="section-header timeline-header">
+                            <h2 class="section-title">Work Experience</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-date">Dec 2025 – Jan 2026</div>
+                                    <h3 class="timeline-card-title">App Developer Intern</h3>
+                                    <h4 class="timeline-card-subtitle">ApexPlanet Software Pvt. Ltd. (Virtual)</h4>
+                                    <ul class="timeline-bullets">
+                                        <li>Participated in mobile app development workflows, building clean and responsive screen interfaces.</li>
+                                        <li>Engaged in debugging, routine code optimization, and performance profiling of mobile components.</li>
+                                        <li>Acquired practical experience using source control (Git) in collaborative, deadline-driven projects.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Timeline -->
+                    <div class="timeline-column">
+                        <div class="section-header timeline-header">
+                            <h2 class="section-title">Education History</h2>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-date">2024 – Present (Expected 2028)</div>
+                                    <h3 class="timeline-card-title">B.Tech in Computer Science & Business Systems</h3>
+                                    <h4 class="timeline-card-subtitle">Panimalar Engineering College</h4>
+                                    <p class="timeline-text">
+                                        3rd Year Student. Blending fundamental Computer Science principles (Algorithms, DBMS, OOPs) with business management strategies.
+                                    </p>
+                                    <div class="coursework-badges">
+                                        <span class="badge">Data Structures</span>
+                                        <span class="badge">Relational SQL</span>
+                                        <span class="badge">OOPs</span>
+                                        <span class="badge">Design Thinking</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-card">
+                                    <div class="timeline-date">Completed 2024</div>
+                                    <h3 class="timeline-card-title">Higher Secondary Education (Class XII)</h3>
+                                    <h4 class="timeline-card-subtitle">SBIOA School & Junior College</h4>
+                                    <p class="timeline-text">
+                                        Focus on Mathematics, Physics, Chemistry, and Computer Science.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Selected Projects</h2>
+                    <p class="section-subtitle">Real-world applications built from scratch</p>
+                </div>
+                <div class="projects-container">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="badge badge-tech">TypeScript</span>
+                                <span class="badge badge-tech">CSS3</span>
+                                <span class="badge badge-tech">HTML5</span>
+                            </div>
+                            <h3 class="project-title">Promptify</h3>
+                            <p class="project-description">
+                                A smart prompt enhancer that refines raw, simplistic prompts into structured, detail-rich queries optimized for generative AI systems. It maximizes AI response fidelity by automatically adding key constraints, style guides, and output formats.
+                            </p>
+                            <div class="project-details">
+                                <div class="details-group">
+                                    <h4>Key Features</h4>
+                                    <ul>
+                                        <li>Dynamic expansion heuristics for multi-turn conversational templates.</li>
+                                        <li>Interactive workspace layout with smooth, one-click clipboard copying.</li>
+                                        <li>Theme configuration tailored for prolonged developer operations.</li>
+                                    </ul>
+                                </div>
+                                <div class="details-group">
+                                    <h4>Challenges Solved</h4>
+                                    <p>
+                                        Engineered a robust text-processing pipeline entirely within client-side TypeScript to guarantee instant performance, removing any network latency or external API dependencies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/saranaeswar/Promptify" target="_blank" class="btn btn-secondary btn-small">
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    Code
+                                </a>
+                                <a href="https://promptify-33t5.vercel.app/" target="_blank" class="btn btn-primary btn-small">
+                                    Live Demo
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="badge badge-tech">TypeScript</span>
+                                <span class="badge badge-tech">HTML5</span>
+                                <span class="badge badge-tech">CSS3</span>
+                                <span class="badge badge-tech">Vercel</span>
+                            </div>
+                            <h3 class="project-title">ResumeLab</h3>
+                            <p class="project-description">
+                                A modern, interactive client-side resume builder and ATS-optimization workspace. It provides developers and professionals with high-performance editing and structure checking tools to compile job-ready profiles.
+                            </p>
+                            <div class="project-details">
+                                <div class="details-group">
+                                    <h4>Key Features</h4>
+                                    <ul>
+                                        <li>Dynamic split-screen editing featuring instant reactive layout rendering.</li>
+                                        <li>Pre-engineered ATS templates optimized for structural parsing engines.</li>
+                                        <li>Frictionless browser-based configurations with local state caching.</li>
+                                    </ul>
+                                </div>
+                                <div class="details-group">
+                                    <h4>Challenges Solved</h4>
+                                    <p>
+                                        Handled specialized print CSS variables to map dynamic web interfaces into standardized, margins-safe pages during browser PDF compilation.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/saranaeswar/resumelab" target="_blank" class="btn btn-secondary btn-small">
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                    Code
+                                </a>
+                                <a href="https://resumelab-omega.vercel.app" target="_blank" class="btn btn-primary btn-small">
+                                    Live Demo
+                                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <p class="section-subtitle">Verified professional credentials</p>
+                </div>
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-status">Elite Status</div>
+                        <h3 class="cert-title">Design Thinking - A Primer</h3>
+                        <p class="cert-issuer">NPTEL (Indian Institute of Technology Madras)</p>
+                        <div class="cert-meta">
+                            <span class="cert-date">Feb 2026</span>
+                            <span class="cert-id">ID: NPTEL26MG51S453410043</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="verify-btn">Verified Credential</span>
+                        </div>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <h3 class="cert-title">Resume Writing and Job Interviewing</h3>
+                        <p class="cert-issuer">HP LIFE (HP Foundation)</p>
+                        <div class="cert-meta">
+                            <span class="cert-date">Jun 2026</span>
+                            <span class="cert-id">ID: 6008bc30-9dc3-4ab0-b706...</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="verify-btn">Verified Credential</span>
+                        </div>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <h3 class="cert-title">Social Media Marketing</h3>
+                        <p class="cert-issuer">HP LIFE (HP Foundation)</p>
+                        <div class="cert-meta">
+                            <span class="cert-date">Jun 2026</span>
+                            <span class="cert-id">ID: 1e47f66a-0efa-42eb-a139...</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="verify-btn">Verified Credential</span>
+                        </div>
+                    </div>
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <h3 class="cert-title">The Art of Sales: Fundamentals of Selling</h3>
+                        <p class="cert-issuer">HP LIFE (HP Foundation)</p>
+                        <div class="cert-meta">
+                            <span class="cert-date">Jun 2026</span>
+                            <span class="cert-id">ID: 93fbb8c1-62b2-4f43-aac0...</span>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="verify-btn">Verified Credential</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests / Focus Area Section -->
+        <section class="interests-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Interests & Hobbies</h2>
+                    <p class="section-subtitle">Areas of personal and professional curiosity</p>
+                </div>
+                <div class="interests-grid">
+                    <div class="interest-tag-card">🚀 Multiplatform Dev (Flutter)</div>
+                    <div class="interest-tag-card">🤖 AI Integration & LLM APIs</div>
+                    <div class="interest-tag-card">🎨 UI/UX Micro-Interactions</div>
+                    <div class="interest-tag-card">📚 System Design Patterns</div>
+                    <div class="interest-tag-card">🧠 Design Thinking Processes</div>
+                    <div class="interest-tag-card">🛠️ Open-source Explorations</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's discuss opportunities, projects, or collaborations</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card-info">
+                        <h3>Connect With Me</h3>
+                        <p class="contact-info-desc">
+                            I am open to summer internships, application development projects, and software collaborations. Drop a line!
+                        </p>
+                        
+                        <div class="contact-links-list">
+                            <a href="mailto:saranaeswar42@gmail.com" class="contact-link-item">
+                                <span class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>saranaeswar42@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/s-saranaeswar-9a831839b/" target="_blank" class="contact-link-item">
+                                <span class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                        <rect x="2" y="9" width="4" height="12"/>
+                                        <circle cx="4" cy="4" r="2"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <p>s-saranaeswar-9a831839b</p>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/saranaeswar" target="_blank" class="contact-link-item">
+                                <span class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <p>github.com/saranaeswar</p>
+                                </div>
+                            </a>
+
+                            <div class="contact-link-item">
+                                <span class="contact-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Chennai, Tamil Nadu, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Saranaeswar S. All rights reserved.</p>
+            <div class="footer-meta">
+                <span>Designed &amp; Built from Scratch</span>
+                <a href="#" class="back-to-top">
+                    Back to Top
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-up-icon">
+                        <line x1="12" y1="19" x2="12" y2="5"/>
+                        <polyline points="5 12 12 5 19 12"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
